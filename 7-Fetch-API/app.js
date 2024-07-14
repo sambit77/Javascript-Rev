@@ -34,8 +34,5 @@ const getFacts = async () => {
 //         factPara.innerText = data[0].text;
 //     });
 // }
-
-
-
 //getFacts();
 myBtn.addEventListener("click",getFacts);
