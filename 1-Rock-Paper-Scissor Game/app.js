@@ -10,7 +10,7 @@ const compScorePara = document.querySelector("#comp-score");
 const genCompChoice = () => {
     //rock, paper, scissor .. pick random 
     let options = ["rock","paper","scissors"];
-    const randIdx = Math.floor(Math.random() * 3); //generate number 0 to 2 by multiplying with 3
+    const randIdx = Math.floor(Math.srandom() * 3); //generate number 0 to 2 by multiplying with 3
     return options[randIdx];
 
 
